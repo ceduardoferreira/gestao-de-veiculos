@@ -7,7 +7,7 @@ void main() {
       chassi: "oni001",
       fabricante: "Chevrolet");
 
-  onix.ligar();
+  onix.ligar(); //chamando métodos
   onix.desligar();
   onix.acelerar();
   onix.frear();

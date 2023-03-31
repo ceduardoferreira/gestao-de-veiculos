@@ -4,7 +4,7 @@ class Carro {
   String chassi;
   String fabricante;
 
-  Carro({
+  Carro({ //construtor
     required this.modelo,
     required this.marca,
     required this.chassi,
