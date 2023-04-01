@@ -1,15 +1,17 @@
-Como atualizar o código usando o git 
+# Anotações
 
+## Sobre Git
+Como atualizar o código
 
-C:\Windows\System32>cd C:\Users\cf590\Desktop\Dev\Dart\estudoPOO\gestao-de-veiculos
+C:\Windows\System32>cd C:rotadapasta
 
-C:\Users\cf590\Desktop\Dev\Dart\estudoPOO\gestao-de-veiculos>git add .
+C:rotadapasta>git add .
 
-C:\Users\cf590\Desktop\Dev\Dart\estudoPOO\gestao-de-veiculos>git commit -m "first uptade"
-[main 562ba9a] first uptade
+C:rotadapasta>git commit -m "nome do commit"
+[main 562ba9a] nome do commit
  2 files changed, 2 insertions(+), 2 deletions(-)
 
-C:\Users\cf590\Desktop\Dev\Dart\estudoPOO\gestao-de-veiculos>git push -u origin main
+C:rotadapasta>git push -u origin main
 Enumerating objects: 7, done.
 Counting objects: 100% (7/7), done.
 Delta compression using up to 12 threads
@@ -20,6 +22,3 @@ remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
 To https://github.com/ceduardoferreira/gestao-de-veiculos.git
    64daa27..562ba9a  main -> main
 branch 'main' set up to track 'origin/main'.
-
-C:\Users\cf590\Desktop\Dev\Dart\estudoPOO\gestao-de-veiculos>
-
