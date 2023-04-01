@@ -1,7 +1,7 @@
 import 'carro.dart'; //importando a classe com estruturas criadas
 
 void main() {
-  Carro onix = Carro(
+      Carro onix = Carro(
       modelo: "Onix",
       marca: "Chevrolet",
       chassi: "oni001",
@@ -22,12 +22,9 @@ void main() {
   gol.desligar();
   gol.acelerar();
   gol.frear();
-  
+
   Carro argo = Carro(
-      modelo: "Argo", 
-      marca: "Fiat", 
-      chassi: "arg001", 
-      fabricante: "Fiat");
+      modelo: "Argo", marca: "Fiat", chassi: "arg001", fabricante: "Fiat");
 
   argo.ligar();
   argo.desligar();
